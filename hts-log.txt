@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 03 Feb 2021 00:26:20 at http://www.aksisweb.com/theme/fixed/layouts-1/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "fr, en, *" http://www.aksisweb.com/theme/fixed/layouts-1/index.html -O1 "C:\Mes Sites Web\admin siteweb Updev" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:30:42	Error: 	"Not Found" (404) at link www.aksisweb.com/theme/fixed/layouts-1/assets/lib/themify-icons/themify-icons.css (from www.aksisweb.com/theme/fixed/layouts-1/app-chat.html)
+00:30:56	Error: 	"Not Found" (404) at link www.aksisweb.com/theme/fixed/layouts-1/assets/lib/summernote/summernote-bs3.css (from www.aksisweb.com/theme/fixed/layouts-1/corporate-add.html)
+00:30:57	Warning: 	Retry after error -4 (No data (connection closed)) at link www.aksisweb.com/theme/fixed/layouts-1/assets/fonts/fontawesome-webfont.ttf?v=4.7.0 (from www.aksisweb.com/theme/fixed/layouts-1/assets/scss/icons.css)
+00:30:58	Warning: 	Retry after error -4 (No data (connection closed)) at link www.aksisweb.com/theme/fixed/layouts-1/assets/fonts/Simple-Line-Icons.eot? (from www.aksisweb.com/theme/fixed/layouts-1/assets/scss/icons.css)
+00:30:58	Warning: 	Retry after error -4 (No data (connection closed)) at link www.aksisweb.com/theme/fixed/layouts-1/assets/fonts/weathericons-regular-webfont.woff2 (from www.aksisweb.com/theme/fixed/layouts-1/assets/scss/icons.css)
+00:30:58	Warning: 	Retry after error -4 (No data (connection closed)) at link www.aksisweb.com/theme/fixed/layouts-1/assets/lib/summernote/font/summernote.ttf?c0adbd16bed91a6bd3fa47dd845d3618 (from www.aksisweb.com/theme/fixed/layouts-1/assets/lib/summernote/summernote.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 48 seconds : 259 links scanned, 252 files written (14527332 bytes overall) [6901201 bytes received at 23962 bytes/sec], 10455319 bytes transferred using HTTP compression in 191 files, ratio 26%, 11.7 requests per connection
+(2 errors, 4 warnings, 0 messages)

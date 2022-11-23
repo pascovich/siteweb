@@ -1,0 +1,548 @@
+/*
+     Chartjs - SASS
+     Use CSS formatting for Chartjs
+     Combine with chartjs-sass.js + chartjs-sass-default.css + own custom css
+ */
+/* Mixin to define each chart element based on a base color */
+.chart-container {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.line.fillColor_1,
+.radar.fillColor_1 {
+  color: rgba(151, 187, 205, 0.2); }
+.line.strokeColor_1,
+.radar.strokeColor_1 {
+  color: #97bbcd; }
+.line.pointColor_1,
+.radar.pointColor_1 {
+  color: #97bbcd; }
+.line.pointStrokeColor_1,
+.radar.pointStrokeColor_1 {
+  color: white; }
+.line.pointHighlightFill_1,
+.radar.pointHighlightFill_1 {
+  color: white; }
+.line.pointHighlightStroke_1,
+.radar.pointHighlightStroke_1 {
+  color: #97bbcd; }
+
+.bar.fillColor_1 {
+  color: rgba(151, 187, 205, 0.5); }
+.bar.strokeColor_1 {
+  color: rgba(151, 187, 205, 0.8); }
+.bar.highlightFill_1 {
+  color: rgba(151, 187, 205, 0.75); }
+.bar.highlightStroke_1 {
+  color: #97bbcd; }
+
+.pie.color_1,
+.polararea.color_1,
+.doughnut.color_1 {
+  color: #97bbcd; }
+.pie.highlight_1,
+.polararea.highlight_1,
+.doughnut.highlight_1 {
+  color: #a8c6d5; }
+
+.legend_icon_1 {
+  background: #97bbcd; }
+
+.line.fillColor_2,
+.radar.fillColor_2 {
+  color: rgba(220, 220, 220, 0.2); }
+.line.strokeColor_2,
+.radar.strokeColor_2 {
+  color: gainsboro; }
+.line.pointColor_2,
+.radar.pointColor_2 {
+  color: gainsboro; }
+.line.pointStrokeColor_2,
+.radar.pointStrokeColor_2 {
+  color: white; }
+.line.pointHighlightFill_2,
+.radar.pointHighlightFill_2 {
+  color: white; }
+.line.pointHighlightStroke_2,
+.radar.pointHighlightStroke_2 {
+  color: gainsboro; }
+
+.bar.fillColor_2 {
+  color: rgba(220, 220, 220, 0.5); }
+.bar.strokeColor_2 {
+  color: rgba(220, 220, 220, 0.8); }
+.bar.highlightFill_2 {
+  color: rgba(220, 220, 220, 0.75); }
+.bar.highlightStroke_2 {
+  color: gainsboro; }
+
+.pie.color_2,
+.polararea.color_2,
+.doughnut.color_2 {
+  color: gainsboro; }
+.pie.highlight_2,
+.polararea.highlight_2,
+.doughnut.highlight_2 {
+  color: #e9e9e9; }
+
+.legend_icon_2 {
+  background: gainsboro; }
+
+.line.fillColor_3,
+.radar.fillColor_3 {
+  color: rgba(247, 70, 74, 0.2); }
+.line.strokeColor_3,
+.radar.strokeColor_3 {
+  color: #f7464a; }
+.line.pointColor_3,
+.radar.pointColor_3 {
+  color: #f7464a; }
+.line.pointStrokeColor_3,
+.radar.pointStrokeColor_3 {
+  color: white; }
+.line.pointHighlightFill_3,
+.radar.pointHighlightFill_3 {
+  color: white; }
+.line.pointHighlightStroke_3,
+.radar.pointHighlightStroke_3 {
+  color: #f7464a; }
+
+.bar.fillColor_3 {
+  color: rgba(247, 70, 74, 0.5); }
+.bar.strokeColor_3 {
+  color: rgba(247, 70, 74, 0.8); }
+.bar.highlightFill_3 {
+  color: rgba(247, 70, 74, 0.75); }
+.bar.highlightStroke_3 {
+  color: #f7464a; }
+
+.pie.color_3,
+.polararea.color_3,
+.doughnut.color_3 {
+  color: #f7464a; }
+.pie.highlight_3,
+.polararea.highlight_3,
+.doughnut.highlight_3 {
+  color: #f85e62; }
+
+.legend_icon_3 {
+  background: #f7464a; }
+
+.line.fillColor_4,
+.radar.fillColor_4 {
+  color: rgba(70, 191, 189, 0.2); }
+.line.strokeColor_4,
+.radar.strokeColor_4 {
+  color: #46bfbd; }
+.line.pointColor_4,
+.radar.pointColor_4 {
+  color: #46bfbd; }
+.line.pointStrokeColor_4,
+.radar.pointStrokeColor_4 {
+  color: white; }
+.line.pointHighlightFill_4,
+.radar.pointHighlightFill_4 {
+  color: white; }
+.line.pointHighlightStroke_4,
+.radar.pointHighlightStroke_4 {
+  color: #46bfbd; }
+
+.bar.fillColor_4 {
+  color: rgba(70, 191, 189, 0.5); }
+.bar.strokeColor_4 {
+  color: rgba(70, 191, 189, 0.8); }
+.bar.highlightFill_4 {
+  color: rgba(70, 191, 189, 0.75); }
+.bar.highlightStroke_4 {
+  color: #46bfbd; }
+
+.pie.color_4,
+.polararea.color_4,
+.doughnut.color_4 {
+  color: #46bfbd; }
+.pie.highlight_4,
+.polararea.highlight_4,
+.doughnut.highlight_4 {
+  color: #59c6c4; }
+
+.legend_icon_4 {
+  background: #46bfbd; }
+
+.line.fillColor_5,
+.radar.fillColor_5 {
+  color: rgba(253, 180, 92, 0.2); }
+.line.strokeColor_5,
+.radar.strokeColor_5 {
+  color: #fdb45c; }
+.line.pointColor_5,
+.radar.pointColor_5 {
+  color: #fdb45c; }
+.line.pointStrokeColor_5,
+.radar.pointStrokeColor_5 {
+  color: white; }
+.line.pointHighlightFill_5,
+.radar.pointHighlightFill_5 {
+  color: white; }
+.line.pointHighlightStroke_5,
+.radar.pointHighlightStroke_5 {
+  color: #fdb45c; }
+
+.bar.fillColor_5 {
+  color: rgba(253, 180, 92, 0.5); }
+.bar.strokeColor_5 {
+  color: rgba(253, 180, 92, 0.8); }
+.bar.highlightFill_5 {
+  color: rgba(253, 180, 92, 0.75); }
+.bar.highlightStroke_5 {
+  color: #fdb45c; }
+
+.pie.color_5,
+.polararea.color_5,
+.doughnut.color_5 {
+  color: #fdb45c; }
+.pie.highlight_5,
+.polararea.highlight_5,
+.doughnut.highlight_5 {
+  color: #fdc075; }
+
+.legend_icon_5 {
+  background: #fdb45c; }
+
+.line.fillColor_6,
+.radar.fillColor_6 {
+  color: rgba(148, 159, 177, 0.2); }
+.line.strokeColor_6,
+.radar.strokeColor_6 {
+  color: #949fb1; }
+.line.pointColor_6,
+.radar.pointColor_6 {
+  color: #949fb1; }
+.line.pointStrokeColor_6,
+.radar.pointStrokeColor_6 {
+  color: white; }
+.line.pointHighlightFill_6,
+.radar.pointHighlightFill_6 {
+  color: white; }
+.line.pointHighlightStroke_6,
+.radar.pointHighlightStroke_6 {
+  color: #949fb1; }
+
+.bar.fillColor_6 {
+  color: rgba(148, 159, 177, 0.5); }
+.bar.strokeColor_6 {
+  color: rgba(148, 159, 177, 0.8); }
+.bar.highlightFill_6 {
+  color: rgba(148, 159, 177, 0.75); }
+.bar.highlightStroke_6 {
+  color: #949fb1; }
+
+.pie.color_6,
+.polararea.color_6,
+.doughnut.color_6 {
+  color: #949fb1; }
+.pie.highlight_6,
+.polararea.highlight_6,
+.doughnut.highlight_6 {
+  color: #a3acbc; }
+
+.legend_icon_6 {
+  background: #949fb1; }
+
+.line.fillColor_7,
+.radar.fillColor_7 {
+  color: rgba(77, 83, 96, 0.2); }
+.line.strokeColor_7,
+.radar.strokeColor_7 {
+  color: #4d5360; }
+.line.pointColor_7,
+.radar.pointColor_7 {
+  color: #4d5360; }
+.line.pointStrokeColor_7,
+.radar.pointStrokeColor_7 {
+  color: white; }
+.line.pointHighlightFill_7,
+.radar.pointHighlightFill_7 {
+  color: white; }
+.line.pointHighlightStroke_7,
+.radar.pointHighlightStroke_7 {
+  color: #4d5360; }
+
+.bar.fillColor_7 {
+  color: rgba(77, 83, 96, 0.5); }
+.bar.strokeColor_7 {
+  color: rgba(77, 83, 96, 0.8); }
+.bar.highlightFill_7 {
+  color: rgba(77, 83, 96, 0.75); }
+.bar.highlightStroke_7 {
+  color: #4d5360; }
+
+.pie.color_7,
+.polararea.color_7,
+.doughnut.color_7 {
+  color: #4d5360; }
+.pie.highlight_7,
+.polararea.highlight_7,
+.doughnut.highlight_7 {
+  color: #585f6e; }
+
+.legend_icon_7 {
+  background: #4d5360; }
+
+.line.fillColor_8,
+.radar.fillColor_8 {
+  color: rgba(234, 57, 217, 0.2); }
+.line.strokeColor_8,
+.radar.strokeColor_8 {
+  color: #ea39d9; }
+.line.pointColor_8,
+.radar.pointColor_8 {
+  color: #ea39d9; }
+.line.pointStrokeColor_8,
+.radar.pointStrokeColor_8 {
+  color: white; }
+.line.pointHighlightFill_8,
+.radar.pointHighlightFill_8 {
+  color: white; }
+.line.pointHighlightStroke_8,
+.radar.pointHighlightStroke_8 {
+  color: #ea39d9; }
+
+.bar.fillColor_8 {
+  color: rgba(234, 57, 217, 0.5); }
+.bar.strokeColor_8 {
+  color: rgba(234, 57, 217, 0.8); }
+.bar.highlightFill_8 {
+  color: rgba(234, 57, 217, 0.75); }
+.bar.highlightStroke_8 {
+  color: #ea39d9; }
+
+.pie.color_8,
+.polararea.color_8,
+.doughnut.color_8 {
+  color: #ea39d9; }
+.pie.highlight_8,
+.polararea.highlight_8,
+.doughnut.highlight_8 {
+  color: #ec50dd; }
+
+.legend_icon_8 {
+  background: #ea39d9; }
+
+.line.fillColor_9,
+.radar.fillColor_9 {
+  color: rgba(177, 174, 24, 0.2); }
+.line.strokeColor_9,
+.radar.strokeColor_9 {
+  color: #b1ae18; }
+.line.pointColor_9,
+.radar.pointColor_9 {
+  color: #b1ae18; }
+.line.pointStrokeColor_9,
+.radar.pointStrokeColor_9 {
+  color: white; }
+.line.pointHighlightFill_9,
+.radar.pointHighlightFill_9 {
+  color: white; }
+.line.pointHighlightStroke_9,
+.radar.pointHighlightStroke_9 {
+  color: #b1ae18; }
+
+.bar.fillColor_9 {
+  color: rgba(177, 174, 24, 0.5); }
+.bar.strokeColor_9 {
+  color: rgba(177, 174, 24, 0.8); }
+.bar.highlightFill_9 {
+  color: rgba(177, 174, 24, 0.75); }
+.bar.highlightStroke_9 {
+  color: #b1ae18; }
+
+.pie.color_9,
+.polararea.color_9,
+.doughnut.color_9 {
+  color: #b1ae18; }
+.pie.highlight_9,
+.polararea.highlight_9,
+.doughnut.highlight_9 {
+  color: #c7c41b; }
+
+.legend_icon_9 {
+  background: #b1ae18; }
+
+.line.fillColor_10,
+.radar.fillColor_10 {
+  color: rgba(14, 2, 48, 0.2); }
+.line.strokeColor_10,
+.radar.strokeColor_10 {
+  color: #0e0230; }
+.line.pointColor_10,
+.radar.pointColor_10 {
+  color: #0e0230; }
+.line.pointStrokeColor_10,
+.radar.pointStrokeColor_10 {
+  color: white; }
+.line.pointHighlightFill_10,
+.radar.pointHighlightFill_10 {
+  color: white; }
+.line.pointHighlightStroke_10,
+.radar.pointHighlightStroke_10 {
+  color: #0e0230; }
+
+.bar.fillColor_10 {
+  color: rgba(14, 2, 48, 0.5); }
+.bar.strokeColor_10 {
+  color: rgba(14, 2, 48, 0.8); }
+.bar.highlightFill_10 {
+  color: rgba(14, 2, 48, 0.75); }
+.bar.highlightStroke_10 {
+  color: #0e0230; }
+
+.pie.color_10,
+.polararea.color_10,
+.doughnut.color_10 {
+  color: #0e0230; }
+.pie.highlight_10,
+.polararea.highlight_10,
+.doughnut.highlight_10 {
+  color: #150348; }
+
+.legend_icon_10 {
+  background: #0e0230; }
+
+.chart-title {
+  display: block; }
+
+.chart-container {
+  /* Chart Container Formats */
+  /* ---------------------------- */
+  width: 100%;
+  /* Set chart and legend as no wrap to stop moving to next line */
+  /* ---------------------------- */
+  -webkit-flex-wrap: nowrap;
+  -moz-flex-wrap: nowrap;
+  -ms-flex-wrap: none;
+  flex-wrap: nowrap;
+  /* Chart Container Content */
+  /* ---------------------------- */
+  /* Align Legend Items vertically */
+  /* ---------------------------- */
+  /* Set order of items for Legend on Left/Right or Top/Bottom of Chart */
+  /* ---------------------------- */ }
+  .chart-container.chart-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center; }
+    .chart-container.chart-center.legend-bottom, .chart-container.chart-center.legend-top {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center; }
+  .chart-container.chart-left {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    justify-content: flex-start; }
+    .chart-container.chart-left.legend-left {
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      -webkit-justify-content: flex-end;
+      -moz-justify-content: flex-end;
+      justify-content: flex-end; }
+  .chart-container.chart-right {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    justify-content: flex-end; }
+    .chart-container.chart-right.legend-left {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      -webkit-justify-content: flex-start;
+      -moz-justify-content: flex-start;
+      justify-content: flex-start; }
+  .chart-container.legend-left, .chart-container.legend-right {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center; }
+    .chart-container.legend-left .chart-legend li, .chart-container.legend-right .chart-legend li {
+      display: list-item; }
+  .chart-container.legend-top .chart-legend, .chart-container.legend-bottom .chart-legend {
+    text-align: center; }
+    .chart-container.legend-top .chart-legend li, .chart-container.legend-bottom .chart-legend li {
+      display: inline-block; }
+  .chart-container.legend-left {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse; }
+    .chart-container.legend-left .chart-legend {
+      margin-right: 10px; }
+  .chart-container.legend-right {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .chart-container.legend-right .chart-legend {
+      margin-left: 10px; }
+  .chart-container.legend-top {
+    -webkit-box-direction: reverse;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column-reverse;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
+  .chart-container.legend-bottom {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .chart-container.legend-bottom .chart-legend {
+      margin-top: 10px; }
+
+/* Chart Legend Format */
+/* ---------------------------- */
+.chart-legend ul,
+.chart-legend > ul {
+  list-style-type: none;
+  margin-top: 5px;
+  /* NOTE: Browsers automatically add 40px of padding-left to all lists, so we should offset that, otherwise the legend is off-center */
+  -webkit-padding-start: 0;
+  /* Webkit */
+  -moz-padding-start: 0;
+  /* Mozilla */
+  padding-left: 0;
+  /* IE (handles all cases, really, but we should also include the vendor-specific properties just to be safe) */ }
+  .chart-legend ul li,
+  .chart-legend > ul li {
+    white-space: nowrap;
+    position: relative;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    padding: 2px 8px 2px 28px;
+    font-size: smaller;
+    cursor: default; }
+    .chart-legend ul li span,
+    .chart-legend > ul li span {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 5px; }
+
+/*# sourceMappingURL=chartjs-sass-default.css.map */

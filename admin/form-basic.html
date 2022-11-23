@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.aksisweb.com/theme/fixed/layouts-1/form-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Feb 2021 22:28:30 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FixedPlus - Bootstrap Admin Dashboard Template</title>
+
+        <!-- Common Plugins -->
+        <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		
+        <!-- Custom Css-->
+        <link href="assets/scss/style.css" rel="stylesheet">
+		
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+			<!-- ============================================================== -->
+			<!-- 						Topbar Start 							-->
+			<!-- ============================================================== -->
+			<div class="top-bar primary-top-bar">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col">
+						<a class="admin-logo" href="index.html">
+							<h1>
+								<img alt="" src="assets/img/icon.png" class="logo-icon margin-r-10">
+								<img alt="" src="assets/img/logo-dark.png" class="toggle-none hidden-xs">
+							</h1>
+						</a>
+						<div class="left-nav-toggle" >
+							<a  href="#" class="nav-collapse"><i class="fa fa-bars"></i></a>
+						</div>
+						<div class="left-nav-collapsed" >
+							<a  href="#" class="nav-collapsed"><i class="fa fa-bars"></i></a>
+						</div>
+						<div class="search-form hidden-xs">
+							<form>
+								<input class="form-control" placeholder="Search for..." type="text"> <button class="btn-search" type="button"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
+					</div>
+					<div class="col">
+						<ul class="list-inline top-right-nav">
+							<li class="dropdown icons-dropdown d-none-m">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-envelope"></i> <div class="notify setpos"> <span class="heartbit"></span> <span class="point"></span> </div></a>
+								<ul class="dropdown-menu top-dropdown lg-dropdown notification-dropdown">
+									<li>
+										<div class="dropdown-header">
+											<a class="float-right" href="#"><small>View All</small></a> Messages
+										</div>
+										
+										<div class="scrollDiv">
+											<div class="notification-list">
+												<a class="clearfix" href="javascript:%20void(0);">
+													<span class="notification-icon">
+														<img alt="" class="rounded-circle" src="assets/img/avtar-2.png" width="50">
+													</span> 
+													<span class="notification-title">
+													John Doe 
+													<label class="label label-warning float-right">Support</label>
+													</span> 
+													<span class="notification-description">Lorem Ipsum is simply dummy text of the printing.</span> 
+													<span class="notification-time">15 minutes ago</span>
+												</a>
+												
+												<a class="clearfix" href="javascript:%20void(0);">
+													<span class="notification-icon">
+													<img alt="" class="rounded-circle" src="assets/img/avtar-3.png" width="50">
+													</span> 
+													<span class="notification-title">
+													Govindo Doe 
+													<label class="label label-warning float-right">Support</label>
+													</span> 
+													<span class="notification-description">Lorem Ipsum is simply dummy text of the printing.</span> 
+													<span class="notification-time">15 minutes ago</span>
+												</a> 
+												
+												<a class="clearfix" href="javascript:%20void(0);">
+													<span class="notification-icon">
+													<img alt="" class="rounded-circle" src="assets/img/avtar-4.png" width="50">
+													</span> 
+													<span class="notification-title">
+													Megan Doe 
+													<label class="label label-warning float-right">Support</label>
+													</span>
+													<span class="notification-description">Lorem Ipsum is simply dummy text of the printing.</span>
+													<span class="notification-time">15 minutes ago</span>
+												</a> 
+												
+												<a class="clearfix" href="javascript:%20void(0);">
+													<span class="notification-icon">
+													<img alt="" class="rounded-circle" src="assets/img/avtar-5.png" width="50">
+													</span>
+													<span class="notification-title">
+													Hritik Doe 
+													<label class="label label-warning float-right">Support</label>
+													</span>
+													<span class="notification-description">Lorem Ipsum is simply dummy text of the printing.</span>
+													<span class="notification-time">15 minutes ago</span>
+												</a>
+												
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown icons-dropdown d-none-m">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-bell"></i> <div class="notify setpos"> <span class="heartbit"></span> <span class="point"></span> </div></a>
+								<ul class="dropdown-menu top-dropdown lg-dropdown notification-dropdown">
+									<li>
+										<div class="dropdown-header">
+											<a class="float-right" href="#"><small>View All</small></a> Notifications
+										</div>
+										<div class="scrollDiv">
+											<div class="notification-list">
+											
+												<a class="clearfix" href="javascript:%20void(0);">
+													<span class="notification-icon">
+														<i class="icon-cloud-upload text-primary"></i>
+													</span>
+													<span class="notification-title">Upload Complete</span> 
+													<span class="notification-description">Lorem Ipsum is simply dummy text of the printing.</span>
+													<span class="notification-time">15 minutes ago</span>
+												</a> 
+												
+												<a class="clearfix" href="javascript:%20void(0);">
+													<span class="notification-icon">
+														<i class="icon-info text-warning"></i>
+													</span>
+													<span class="notification-title">Storage Space low</span>
+													<span class="notification-description">Lorem Ipsum is simply dummy text of the printing.</span>
+													<span class="notification-time">15 minutes ago</span>
+												</a>
+												
+												<a class="clearfix" href="javascript:%20void(0);">
+													<span class="notification-icon">
+														<i class="icon-check text-success"></i>
+													</span>
+													<span class="notification-title">Project Task Complete</span>
+													<span class="notification-description">Lorem Ipsum is simply dummy text of the printing.</span>
+													<span class="notification-time">15 minutes ago</span>
+												</a>
+												
+												<a class="clearfix" href="javascript:%20void(0);">
+													<span class="notification-icon">
+														<i class=" icon-graph text-danger"></i>
+													</span>
+													<span class="notification-title">CPU Usage</span>
+													<span class="notification-description">Lorem Ipsum is simply dummy text of the printing.</span>
+													<span class="notification-time">15 minutes ago</span>
+												</a>
+												
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown d-none-m">
+								<a class="right-sidebar-toggle" href="javascript:%20void(0);"><i class="fa fa-align-right"></i></a>
+							</li>
+							<li class="dropdown avtar-dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									<img alt="" class="rounded-circle" src="assets/img/avtar-2.png" width="30">
+									John Doe
+								</a>
+								<ul class="dropdown-menu top-dropdown">
+									<li>
+										<a class="dropdown-item" href="javascript:%20void(0);"><i class="icon-bell"></i> Activities</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="javascript:%20void(0);"><i class="icon-user"></i> Profile</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="javascript:%20void(0);"><i class="icon-settings"></i> Settings</a>
+									</li>
+									<li class="dropdown-divider"></li>
+									<li>
+										<a class="dropdown-item" href="javascript:%20void(0);"><i class="icon-logout"></i> Logout</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ============================================================== -->
+		<!--                        Topbar End                              -->
+		<!-- ============================================================== -->
+		
+		
+		<!-- ============================================================== -->
+		<!--                        Right Side Start                        -->
+		<!-- ============================================================== -->
+		<nav class="toggle-sidebar" id="right-sidebar-toggle">
+			<div class="nano">
+				<div class="nano-content">
+					<div>
+						<ul class="list-inline nav-tab-card clearfix" role="tablist">
+							
+							<li class="active" role="presentation">
+								<a aria-controls="friends" data-toggle="tab" href="#friends" role="tab">Friends</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="friends" role="tabcard">
+								<ul class="list-unstyled sidebar-contact-list">
+									<li class="clearfix">
+										<a class="media-box" href="#"><span class="float-right"><span class="circle circle-success circle-lg"></span></span> <span class="float-left">
+										 <img alt="user" class="media-box-object rounded-circle" src="assets/img/avtar-2.png" width="50"></span>
+										 <span class="media-box-body"><span class="media-box-heading"><strong>John Doe</strong><br>
+										<small class="text-muted">Designer</small></span></span></a>
+									</li>
+									<li class="clearfix">
+										<a class="media-box" href="#"><span class="float-right"><span class="circle circle-success circle-lg"></span></span> <span class="float-left">
+										 <img alt="user" class="media-box-object rounded-circle" src="assets/img/avtar-1.png" width="50"></span>
+										 <span class="media-box-body"><span class="media-box-heading"><strong>Govinda Doe</strong><br>
+										<small class="text-muted">Designer</small></span></span></a>
+									</li>
+									<li class="clearfix">
+										<a class="media-box" href="#"><span class="float-right"><span class="circle circle-danger circle-lg"></span></span> <span class="float-left">
+										 <img alt="user" class="media-box-object rounded-circle" src="assets/img/avtar-3.png" width="50"></span>
+										 <span class="media-box-body"><span class="media-box-heading"><strong>Megan Doe</strong><br>
+										<small class="text-muted">Designer</small></span></span></a>
+									</li>
+									<li class="clearfix">
+										<a class="media-box" href="#"><span class="float-right"><span class="circle circle-success circle-lg"></span></span> <span class="float-left">
+										 <img alt="user" class="media-box-object rounded-circle" src="assets/img/avtar-4.png" width="50"></span>
+										 <span class="media-box-body"><span class="media-box-heading"><strong>Hritik Doe</strong><br>
+										<small class="text-muted">Designer</small></span></span></a>
+									</li>
+									<li class="clearfix">
+										<a class="media-box" href="#"><span class="float-right"><span class="circle circle-success circle-lg"></span></span> <span class="float-left">
+										 <img alt="user" class="media-box-object rounded-circle" src="assets/img/avtar-5.png" width="50"></span>
+										 <span class="media-box-body"><span class="media-box-heading"><strong>Bianca Doe</strong><br>
+										<small class="text-muted">Designer</small></span></span></a>
+									</li>
+									<li class="clearfix">
+										<a class="media-box" href="#"><span class="float-right"><span class="circle circle-success circle-lg"></span></span> <span class="float-left">
+										 <img alt="user" class="media-box-object rounded-circle" src="assets/img/avtar-6.png" width="50"></span>
+										 <span class="media-box-body"><span class="media-box-heading"><strong>John Doe</strong><br>
+										<small class="text-muted">Designer</small></span></span></a>
+									</li>
+									<li class="clearfix">
+										<a class="media-box" href="#"><span class="float-right"><span class="circle circle-success circle-lg"></span></span> <span class="float-left">
+										 <img alt="user" class="media-box-object rounded-circle" src="assets/img/avtar-1.png" width="50"></span>
+										 <span class="media-box-body"><span class="media-box-heading"><strong>Govinda Doe</strong><br>
+										<small class="text-muted">Designer</small></span></span></a>
+									</li>
+									<li class="clearfix">
+										<a class="media-box" href="#"><span class="float-right"><span class="circle circle-danger circle-lg"></span></span> <span class="float-left">
+										 <img alt="user" class="media-box-object rounded-circle" src="assets/img/avtar-2.png" width="50"></span>
+										 <span class="media-box-body"><span class="media-box-heading"><strong>Megan Doe</strong><br>
+										<small class="text-muted">Designer</small></span></span></a>
+									</li>
+									<li>
+										<div class=" text-center">
+											<a class="btn btn-teal" href="javascript:void(0);" title="See more contacts">Load more..</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- ============================================================== -->
+		<!--                        Right Side End                          -->
+		<!-- ============================================================== -->
+		
+
+        <!-- ============================================================== -->
+		<!-- 						Navigation Start 						-->
+		<!-- ============================================================== -->
+        <div class="main-sidebar-nav default-navigation">
+            <div class="nano">
+                <div class="nano-content sidebar-nav">
+				
+					<div class="card-body border-bottom text-center nav-profile">
+						<div class="notify setpos"> <span class="heartbit"></span> <span class="point"></span> </div>
+                        <img alt="profile" class="margin-b-10  " src="assets/img/avtar-2.png" width="80">
+                        <p class="lead margin-b-0 toggle-none">John Doe</p>
+                        <p class="text-muted mv-0 toggle-none">Welcome</p>						
+                    </div>
+					
+                    <ul class="metisMenu nav flex-column" id="menu">
+                        <li class="nav-heading"><span>MAIN</span></li>
+						<li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home"></i> <span class="toggle-none">Dashboard <span class="badge badge-pill badge-danger float-right mr-2">1.0</span></span></a></li>						
+                        <li class="nav-item">
+                            <a class="nav-link"  href="javascript: void(0);" aria-expanded="false"><i class="fa fa-th-large"></i> <span class="toggle-none">Widgets <span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column " aria-expanded="false">
+								<li class="nav-item"><a class="nav-link" href="widgets-apps.html">Widgets Apps</a></li>
+                                <li class="nav-item"><a class="nav-link" href="widgets-data.html">Widgets Data</a></li>
+                            </ul>
+                        </li>
+						 <li class="nav-item">
+                            <a class="nav-link"  href="javascript: void(0);" aria-expanded="false"><i class="fa fa-codepen"></i> <span class="toggle-none">Apps <span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+								<li class="nav-item"><a class="nav-link" href="app-calendar.html">Calendar</a></li>
+                                <li class="nav-item"><a class="nav-link" href="app-chat.html">Chat App</a></li>
+								<li class="nav-item"><a class="nav-link" href="app-ticket.html">Support Ticket</a></li>
+								<li class="nav-item"><a class="nav-link" href="app-contact.html">Contact Grid</a></li>
+								<li class="nav-item"><a class="nav-link" href="app-contact-detail.html">Contact Detail</a></li>
+                            </ul>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="javascript: void(0);" aria-expanded="false"><i class="fa fa-envelope-open"></i> <span class="toggle-none">Inbox<span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+                                <li class="nav-item"><a class="nav-link" href="mail-index.html">Inbox</a></li>
+                                <li class="nav-item"><a class="nav-link" href="mail-view.html">Inbox view</a></li>
+                                <li class="nav-item"><a class="nav-link" href="mail-compose.html">Compose</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-heading"><span>FORMS, TABLE & LAYOUTS</span></li>
+
+                        <li class="nav-item">
+                            <a  class="nav-link" href="javascript: void(0);" aria-expanded="false"><i class="fa fa-cogs"></i> <span class="toggle-none">UI elements <span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+								<li class="nav-item"><a class="nav-link" href="ui-jquery-elements.html">Jquery UI</a></li>
+								<li class="nav-item"><a class="nav-link" href="ui-bootstrap-elements.html">Bootstrap UI</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-typography.html">Typography</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-icons.html">Icons</a></li>
+								<li class="nav-item"><a class="nav-link" href="ui-buttons.html">Buttons</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-cards.html">Cards</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-tabs.html">Tabs</a></li>
+								<li class="nav-item"><a class="nav-link" href="ui-card-master.html">Card Master</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-tip-pop.html">Tooltip & Popovers</a></li>
+								<li class="nav-item"><a class="nav-link" href="ui-sweetalerts.html">Sweet Alters</a></li>
+								<li class="nav-item"><a class="nav-link" href="ui-alertify.html">Alertify Alters</a></li>
+								<li class="nav-item"><a class="nav-link" href="ui-modals.html">Modals</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-notification.html">Notification</a></li>
+								<li class="nav-item"><a class="nav-link" href="ui-progress.html">Progress</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-grid.html">Grid System</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-carousel.html">Carousel</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-range-slider.html">Range Slider</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-nestable.html">Nestable</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-treeview.html">Tree View</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ui-draggable-cards.html">Draggable Cards</a></li>
+                            </ul>
+                        </li>						
+                        <li class="nav-item  active">
+                            <a class="nav-link" href="javascript: void(0);" aria-expanded="false"><i class="fa fa-file"></i> <span class="toggle-none">Forms <span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+                                <li class="nav-item"><a class="nav-link" href="form-basic.html">Basic Elements</a></li>
+								<li class="nav-item"><a class="nav-link" href="form-validations.html">Form Validations</a></li>
+								<li class="nav-item"><a class="nav-link" href="form-masks.html">Form Masks</a></li>
+								<li class="nav-item"><a class="nav-link" href="form-picker.html">Form Picker</a></li>
+								<li class="nav-item"><a class="nav-link" href="form-editor.html">Text Editor</a></li>
+								<li class="nav-item"><a class="nav-link" href="form-file-upload.html">File upload</a></li>
+                                <li class="nav-item"><a class="nav-link" href="form-wizard.html">Form Wizard</a></li>
+                            </ul>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript: void(0);" aria-expanded="false"><i class="fa fa-table"></i> <span class="toggle-none">Tables <span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+                                <li class="nav-item"><a class="nav-link" href="table-basic.html">Basic Tables</a></li>
+                                <li class="nav-item"><a class="nav-link" href="table-data.html">Data Tables</a></li>
+								<li class="nav-item"><a class="nav-link" href="table-js-grid.html">JsGrid Tables</a></li>
+                                <li class="nav-item"><a class="nav-link" href="table-foo.html">Foo Tables</a></li>
+                            </ul>
+                        </li>
+						
+						<li class="nav-item">
+                            <a class="nav-link" href="javascript: void(0);" aria-expanded="false"><i class="fa fa-bar-chart"></i> <span class="toggle-none">Charts <span class="fa arrow"></span>  <span class="badge badge-pill badge-success float-right mr-2">7</span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+                                <li class="nav-item"><a class="nav-link" href="chart-flot.html">Flot</a></li>
+                                <li class="nav-item"><a class="nav-link" href="chart-morris.html">Morris</a></li>
+                                <li class="nav-item"><a class="nav-link" href="chart-radial.html">Radial</a></li>
+                                <li class="nav-item"><a class="nav-link" href="chart-c3.html">C3</a></li>
+                                <li class="nav-item"><a class="nav-link" href="chart-sparkline.html">Sparkline</a></li>
+                                <li class="nav-item"><a class="nav-link" href="chart-rickshaw.html">Rickshaw</a></li>
+                                <li class="nav-item"><a class="nav-link" href="chart-chartjs.html">ChartJs</a></li>
+                            </ul>
+                        </li>
+						
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript: void(0);" aria-expanded="false"><i class="fa fa-map-marker"></i> <span class="toggle-none">Maps <span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+                                <li class="nav-item"><a class="nav-link" href="map-vector.html">Vector map</a></li>
+                                <li class="nav-item"><a class="nav-link" href="map-google.html">Google map</a></li>
+                            </ul>
+                        </li>
+						
+						<li class="nav-heading"><span>EXAMPLES</span></li>
+						<li class="nav-item">
+                            <a class="nav-link"  href="javascript: void(0);" aria-expanded="false"><i class="fa fa-shopping-cart"></i> <span class="toggle-none">E-Commerce <span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+								<li class="nav-item"><a class="nav-link" href="ecommerce-add.html">Add Product</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ecommerce-products.html">All Products</a></li>
+                                <li class="nav-item"><a class="nav-link" href="ecommerce-orders.html">Orders</a></li>
+                            </ul>
+                        </li>						
+						<li class="nav-item">
+                            <a class="nav-link"  href="javascript: void(0);" aria-expanded="false"><i class="fa fa-briefcase"></i> <span class="toggle-none">Corporate <span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+								<li class="nav-item"><a class="nav-link" href="corporate-add.html">Add Pages</a></li>
+                                <li class="nav-item"><a class="nav-link" href="corporate-pages.html">All Pages</a></li>
+                            </ul>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link"  href="javascript: void(0);" aria-expanded="false"><i class="fa fa-fire"></i> <span class="toggle-none">Ajax & Php<span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+                                <li class="nav-item"><a class="nav-link" href="examples-add-and-update.html">Add and Update With Php</a></li>
+								<li class="nav-item"><a class="nav-link" href="examples-delete.html">Delete With Php</a></li>
+                            </ul>
+                        </li>
+						
+                        <li class="nav-heading"><span>OTHERS</span></li>
+						
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript: void(0);" aria-expanded="false"><i class="fa fa-folder"></i> <span class="toggle-none">Sample Pages <span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column sub-menu" aria-expanded="false">
+                                <li class="nav-item"><a class="nav-link" href="page-blank.html">Blank Page</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-login.html">Login</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-register.html">Register</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-forget-password.html">Forget Password</a></li>
+								<li class="nav-item"><a class="nav-link" href="page-lockscreen.html">Lock-screen</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-404.html">404</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-gallery.html">Gallery</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-timeline.html">Timeline</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-invoice.html">Invoice</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-profile.html">Profile</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-faqs.html">Faqs</a></li>
+                                <li class="nav-item"><a class="nav-link" href="page-pricing.html">Pricing</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript: void(0);" aria-expanded="false"><i class="fa fa-folder-open"></i> <span class="toggle-none">Multi Level<span class="fa arrow "></span></span></a>
+                            <ul class="nav-second-level nav flex-column" aria-expanded="false">
+                                <li class="nav-item"><a class="nav-link" href="javascript: void(0);">Level 1</a></li>
+                                <li class="nav-item"><a class="nav-link"href="javascript: void(0);" aria-expanded="false">Level 2 <span class="fa arrow"></span></a>
+                                    <ul class="nav-third-level nav flex-column sub-menu" aria-expanded="false">
+                                        <li class="nav-item"><a class="nav-link" href="javascript: void(0);">Level 2</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="javascript: void(0);">Level 2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+		<!-- 						Navigation End	 						-->
+		<!-- ============================================================== -->
+
+
+        <!-- ============================================================== -->
+		<!-- 						Content Start	 						-->
+		<!-- ============================================================== -->
+		
+        <div class="row page-header">
+			<div class="col-lg-6 align-self-center ">
+			  <h2>Basic elements</h2>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Form</a></li>
+					<li class="breadcrumb-item active">Basic elements</li>		
+				</ol>
+			</div>
+		</div>
+
+        <section class="main-content">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-header card-default">
+                            Form elements
+                        </div>
+                        <div class="card-body">
+                            <form method="get" action="#">
+                                <div class="form-group ">
+                                    <label>Rounded Corners</label>
+                                        <input type="text" class="form-control form-control-rounded">
+                                </div>
+                            
+                                <div class="form-group">
+                                    <label>With help</label>
+										<input type="text" class="form-control">
+                                        <small class="text-muted">A block of help text that breaks onto a new line and may extend beyond one line.</small>
+                                </div>
+                                    <div class="form-group">
+                                        <label >Label focus</label>
+                                            <input id="input-id-1" type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                            <input type="password" name="password" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Placeholder</label>
+                                        <input type="text" placeholder="placeholder" class="form-control">
+                                    </div>
+             
+                                    <div class="form-group">
+                                        <label>Disabled</label>
+                                        <input type="text" placeholder="Disabled input here..." disabled="" class="form-control">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Static control</label>
+                                        <p class="form-control-static">email@example.com</p>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Select</label>
+                                            <select name="account" class="form-control m-b">
+                                                <option>Option 1</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                                <option>Option 4</option>
+                                            </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Custom Checkboxes &amp; radios</label>
+										<div class="row">
+                                        <div class="col">
+												<div class="checkbox checkbox-primary margin-r-5">
+													<input id="checkbox1" type="checkbox" checked="">
+													<label for="checkbox1"> Option one </label>
+												</div>
+												<div class="checkbox checkbox-danger margin-r-5">
+													<input id="checkbox2" type="checkbox" checked="">
+													<label for="checkbox2"> Option one </label>
+												</div>
+												<div class="checkbox checkbox-info margin-r-5">
+													<input id="checkbox3" type="checkbox" checked="">
+													<label for="checkbox3"> Option one </label>
+												</div>
+												<div class="checkbox checkbox-warning margin-r-5">
+													<input id="checkbox4" type="checkbox" checked="">
+													<label for="checkbox4"> Option one </label>
+												</div>
+												<div class="checkbox checkbox-success margin-r-5">
+													<input id="checkbox5" type="checkbox" checked="">
+													<label for="checkbox5"> Option one </label>
+												</div>
+												<div class="checkbox checkbox-purple margin-r-5">
+													<input id="checkbox6" type="checkbox" checked="">
+													<label for="checkbox6"> Option one </label>
+												</div>
+												<div class="checkbox checkbox-red margin-r-5">
+													<input id="checkbox7" type="checkbox" checked="">
+													<label for="checkbox7"> Option one </label>
+												</div>
+												<div class="checkbox checkbox-inverse margin-r-5">
+													<input id="checkbox8" type="checkbox" checked="" >
+													<label for="checkbox8"> Option one </label>
+												</div>
+                                        </div>
+										<div class="col">
+												<div class="radio radio-primary">
+													<input type="radio" name="radio4" id="radio1" value="option4" checked="">
+													<label for="radio1"> Option one </label>
+												</div>
+												
+												<div class="radio radio-danger">
+													<input type="radio" name="radio4" id="radio2" value="option4">
+													<label for="radio2"> Option one </label>
+												</div>
+												
+												<div class="radio radio-info">
+													<input type="radio" name="radio4" id="radio3" value="option4">
+													<label for="radio3"> Option one </label>
+												</div>
+												
+												<div class="radio radio-warning">
+													<input type="radio" name="radio4" id="radio4" value="option4">
+													<label for="radio4"> Option one </label>
+												</div>
+												
+												<div class="radio radio-success">
+													<input type="radio" name="radio4" id="radio5" value="option4">
+													<label for="radio5"> Option one </label>
+												</div>
+												
+												<div class="radio radio-purple">
+													<input type="radio" name="radio4" id="radio6" value="option4">
+													<label for="radio6"> Option one </label>
+												</div>
+												
+												<div class="radio radio-red">
+													<input type="radio" name="radio4" id="radio7" value="option4">
+													<label for="radio7"> Option one </label>
+												</div>
+	
+												<div class="radio radio-inverse">
+													<input type="radio" name="radio4" id="radio8" value="option4">
+													<label for="radio8"> Option one </label>
+												</div>
+											
+                                        </div>
+										</div>
+                                    </div>
+                         
+                                    <div class="form-group ">
+                                        <label>Inline checkboxes</label>
+					
+											<div class="form-inline">
+                                           <div class="checkbox checkbox-inline checkbox-success">
+													<input id="checkbox10" type="checkbox" checked="">
+													<label for="checkbox10"> Option one </label>
+												</div>
+                                            <div class="checkbox checkbox-inline checkbox-primary mx-sm-3">
+													<input id="checkbox11" type="checkbox" checked="">
+													<label for="checkbox11"> Option one </label>
+												</div>
+                                            <div class="checkbox checkbox-inline checkbox-danger">
+													<input id="checkbox12" type="checkbox" checked="">
+													<label for="checkbox12"> Option one </label>
+												</div>
+                                      </div>
+                                    </div>
+             
+                                    <div class="form-group has-success">
+                                        <label>Input with success</label>
+                                            <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group has-warning">
+                                        <label>Input with warning</label>
+                                            <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group has-error">
+                                        <label>Input with error</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label >Control sizing</label>
+ 
+                                            <input type="text" placeholder=".input-lg" class="form-control input-lg m-b">
+                                            <br>
+                                            <input type="text" placeholder="Default input" class="form-control m-b">
+                                            <br>
+                                            <input type="text" placeholder=".input-sm" class="form-control input-sm">
+     
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Column sizing</label>
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <input type="text" placeholder=".col-md-2" class="form-control">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <input type="text" placeholder=".col-md-3" class="form-control">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <input type="text" placeholder=".col-md-4" class="form-control">
+                                                </div>
+                                            </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label >Input groups</label>
+
+                                            <div class="input-group m-b">
+                                                <span class="input-group-addon">@</span>
+                                                <input type="text" placeholder="Username" class="form-control">
+                                            </div>
+                                            <br>
+                                            <div class="input-group m-b">
+                                                <input type="text" class="form-control">
+                                                <span class="input-group-addon">.00</span>
+                                            </div>
+                                            <br>
+                                            <div class="input-group m-b">
+                                                <span class="input-group-addon">$</span>
+                                                <input type="text" class="form-control">
+                                                <span class="input-group-addon">.00</span>
+                                            </div>
+                                            <br>
+                                            <div class="input-group m-b">
+                                                <span class="input-group-addon">
+                                                    <input type="checkbox">
+                                                </span>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <br>
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    <input type="radio">
+                                                </span>
+                                                <input type="text" class="form-control">
+                                            </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Button addons</label>
+                                            <div class="input-group m-b">
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default">Go!</button>
+                                                </span>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <br>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control">
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default">Go!</button>
+                                                </span>
+                                            </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>With dropdowns</label>
+     
+                                            <div class="input-group">
+                                                <div class="input-group-btn">
+                                                    <button type="button" data-toggle="dropdown" class="btn btn-default">Action
+                                                        <span class="caret"></span>
+                                                    </button>
+                                                    <ul id="ddinput1" class="dropdown-menu">
+                                                        <li><a href="#">Action</a>
+                                                        </li>
+                                                        <li><a href="#">Another action</a>
+                                                        </li>
+                                                        <li><a href="#">Something else here</a>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li><a href="#">Separated link</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <input type="text" class="form-control">
+												</div>
+                                            <br>
+                                            <div class="input-group">
+                                                <input type="text" class="form-control">
+                                                <div class="input-group-btn">
+                                                    <button type="button" data-toggle="dropdown" class="btn btn-default">Action
+                                                        <span class="caret"></span>
+                                                    </button>
+                                                    <ul id="ddinput2" class="dropdown-menu float-right">
+                                                        <li><a href="#">Action</a>
+                                                        </li>
+                                                        <li><a href="#">Another action</a>
+                                                        </li>
+                                                        <li><a href="#">Something else here</a>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li><a href="#">Separated link</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                           
+
+                                    <div class="form-group">
+										  <label>Segmented</label>
+									<div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <div class="input-group-btn">
+                                                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Action
+                                                        </button>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Another action</a>
+                                                            <a class="dropdown-item" href="#">Something else here</a>
+                                                            <div role="separator" class="dropdown-divider"></div>
+                                                            <a class="dropdown-item" href="#">Separated link</a>
+                                                        </div>
+                                                    </div>
+                                                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                                    <div class="input-group-btn">
+                                                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Action
+                                                        </button>
+                                                        <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; transform: translate3d(93px, -1px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Another action</a>
+                                                            <a class="dropdown-item" href="#">Something else here</a>
+                                                            <div role="separator" class="dropdown-divider"></div>
+                                                            <a class="dropdown-item" href="#">Separated link</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                      </div>
+                                    </div>
+
+
+                                   <div class="form-group">
+										<label>File Input</label>
+										<div class="fileinput-new" data-provides="fileinput">
+										  <div class="fileinput-preview" data-trigger="fileinput" style="width: 200px; height:150px;"></div>
+											<span class="btn btn-primary  btn-file">
+												<span class="fileinput-new">Select</span>
+												<span class="fileinput-exists">Change</span>
+												<input type="file" id="image" name="image">
+											</span>
+											<a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Remove</a>
+										</div>
+									</div>
+
+                                    <div class="form-group">
+										<label>File Input</label>
+										
+											<div class="fileinput fileinput-new input-group col-md-6" data-provides="fileinput">
+											  <div class="form-control" data-trigger="fileinput"><span class="fileinput-filename"></span></div>
+											  <span class="input-group-addon btn btn-primary btn-file ">
+											  <span class="fileinput-new">Select</span>
+											  <span class="fileinput-exists">Change</span>
+											  <input type="file"  name="image">
+											  </span>
+											  <a href="#" class="input-group-addon btn btn-danger  hover fileinput-exists" data-dismiss="fileinput">Remove</a>
+											</div>
+								
+									</div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header card-default">Inline form</div>
+                        <div class="card-body">
+                            <form role="form" class="form-inline">
+                                <div class="form-group">
+                                    <label for="input-email" class="sr-only">Email address</label>
+                                    <input id="input-email" type="email" placeholder="Type your email" class="form-control">
+                                </div>
+                                <div class="form-group mx-sm-3">
+                                    <label for="input-password" class="sr-only">Password</label>
+                                    <input id="input-password" type="password" placeholder="Type your password" class="form-control">
+                                </div>
+								<div class="form-group ">
+									<div class="checkbox checkbox-primary ">
+                                        <input id="checkbox22" type="checkbox" checked="">
+                                        <label for="checkbox22"> Remember Me </label>
+                                    </div>
+								</div>
+                                <button type="submit" class="btn btn-primary margin-l-5 mx-sm-3">Sign in</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    
+                    <div class="card">
+                        <div class="card-header card-default">Stacked form</div>
+                        <div class="card-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label>Email address</label>
+                                    <input type="email" placeholder="Enter email" class="form-control">
+                                </div>
+                                <div class="form-group ">
+                                    <label>Password</label>
+                                    <input type="password" placeholder="Password" class="form-control">
+                                </div>
+								<div class="form-group ">
+									<div class="checkbox checkbox-primary ">
+										<input id="checkbox21" type="checkbox" checked="">
+										<label for="checkbox21"> Remember Me </label>
+									</div>
+								</div>
+                                <button type="submit" class="btn btn-sm btn-primary">Sign in</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-sm-6">
+                    
+                    <div class="card">
+                        <div class="card-header card-default">Horizontal form</div>
+                        <div class="card-body">
+                            <form>
+							
+								<div class="form-group row">
+								  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+								  <div class="col-sm-10">
+									<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+								  </div>
+								</div>
+								
+                                <div class="form-group row">
+								  <label for="inputEmail3" class="col-sm-2 col-form-label">Password</label>
+								  <div class="col-sm-10">
+									<input type="password" placeholder="Password" class="form-control">
+								  </div>
+								</div>
+                               
+                                <div class="form-group ">
+									<div class="checkbox checkbox-primary ">
+										<input id="checkbox20" type="checkbox" checked="">
+										<label for="checkbox20"> Remember Me </label>
+									</div>
+								</div>
+								
+                                <button type="submit" class="btn btn-sm btn-primary">Sign in</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+            <footer class="footer">
+                <span>Copyright &copy; 2018 FixedPlus</span>
+            </footer>
+
+
+        </section>
+        <!-- ============================================================== -->
+		<!-- 						Content End		 						-->
+		<!-- ============================================================== -->
+
+        <!--Common plugins-->
+        <script src="assets/lib/jquery/dist/jquery.min.js"></script>
+		<script src="assets/lib/bootstrap/js/popper.min.js"></script>
+        <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/lib/pace/pace.min.js"></script>
+        <script src="assets/lib/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+        <script src="assets/lib/slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="assets/lib/nano-scroll/jquery.nanoscroller.min.js"></script>
+        <script src="assets/lib/metisMenu/metisMenu.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+
+    </body>
+
+<!-- Mirrored from www.aksisweb.com/theme/fixed/layouts-1/form-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Feb 2021 22:28:30 GMT -->
+</html>
